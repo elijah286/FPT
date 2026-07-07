@@ -1,0 +1,95 @@
+20260304 VST + VNA
+
+Calibration: Port1 --> 1m --> 6dB Att --> Port2
+Measurement: Port1 --> 1m --> ATT --> RX --> 1m --> 6dB Att --> Port2
+
+Calibration settings:
+Start = 4GHz
+Stop = 26.5GHz
+Stepping = 50MHz
+Measurement Bandwidth = 4MHz
+Measurement Interval = 100ms
+
+DUT Type = Amplifier
+DUT Gain = 17.5
+DUT Max NF = 3
+Recommended Reference Level = -35dBm
+
+Averaging Enable = False
+Averaging Count = 10
+
+ENR Freq= 12GHz
+ENR Value = 15dB
+Generation Port = Port1
+
+Calibration Loss Path = 260130_2SMA(F-F)_6dB_1-ps-cable1m.s2p
+
+
+<Source><Environment><Ref><cable><Attenuator><FreqStart><FreqStop><FreqStep><Average?>
+
+------------ADTR1107------------
+Calibration Time
+900s:	SNS_IS_-35_PS1m_6dB_4G_26.5G_50M_Ave
+70s:	SNS_IS_-35_PS1m_6dB_4G_26.5G_50M
+s:	SNS_LV_-35_PS1m_6dB_4G_26.5G_50M_Ave
+100s:	SNS_LV_-35_PS1m_6dB_4G_26.5G_50M
+50s:	SNS_LV_-35_PS1m_6dB_4G_26.5G_100M
+
+Test Time
+s:	SNS_IS_-35_PS1m_6dB_4G_26.5G_50M_Ave
+s:	SNS_IS_-35_PS1m_6dB_4G_26.5G_50M
+s:	SNS_LV_-35_PS1m_6dB_4G_26.5G_50M_Ave
+s:	SNS_LV_-35_PS1m_6dB_4G_26.5G_50M
+
+------------QPF5010------------
+Calibration Time
+11s:	EXT_IS_-21_S7nc0nc1-S11no0_0dB_7G_12G_100M
+s:	EXT_IS_-21_S7nc0nc1-S11no0_6dB_7G_12G_100M
+
+12s:	EXT_LV_25_3_Rec_S7nc0nc1-S11no0_0dB_7G_12G_100M
+s:	EXT_LV_25_3_Rec_S7nc0nc1-S11no0_6dB_7G_12G_100M
+
+12s:	EXT_VNA_LV_25_3_Rec_S7nc0nc1-S11no0_0dB_7G_12G_100M <-- should be this "EXT_VNA_LV_25_3_Rec_0dB_7G_12G_100M"
+12s:	EXT_VNA_LV_25_3_Rec_S7nc0nc1-S11no0_6dB_7G_12G_100M
+
+12s:	EXT_VNA_IS_LV_25_3_Rec_S7nc0nc1-S11no0_0dB_7G_12G_100M
+12s:	EXT_VNA_IS_LV_25_3_Rec_S7nc0nc1-S11no0_6dB_7G_12G_100M
+
+
+110s:	SNS_VNA_IS_25_3_0.3m_7G_12G_10M_ENR6		<-- ref -35
+110s:	SNS_VNA_LV_25_3_0.3m_7G_12G_10M_ENR6			
+
+110s:	SNS_VNA_IS_25_3_0.3m_7G_12G_10M_ENR10		<-- ref -32
+100s:	SNS_VNA_LV_25_3_0.3m_7G_12G_10M_ENR10		
+
+110s:	SNS_VNA_IS_-28_0.3m_7G_12G_10M			<-- with 15ENR, Gain25, NF3
+110s:	SNS_VNA_IS_-28_0.3m_7G_12G_10M_reverse		<-- with 15ENR, Gain25, NF3
+110s:	SNS_VNA_LV_-28_0.3m_7G_12G_10M			<-- with 15ENR, Gain25, NF3
+110s:	SNS_VNA_LV_-28_0.3m_7G_12G_10M_reverse		<-- with 15ENR, Gain25, NF3
+
+110s:	SNS_VNA_LV_25_3_0.3m_7G_12G_10M_ENR15		<-- same as SNS_VNA_LV_-28_0.3m_7G_12G_10M
+
+110s:	SNS_VNA_IS_25_3_0.3m_7G_12G_10M_ENR20		<-- ref -23
+110s:	SNS_VNA_LV_25_3_0.3m_7G_12G_10M_ENR20	
+
+110s:	EXT_VNA_IS_25_3_7G_12G_10M_NC346D		<-- SG:port1, SA:port2, direct
+110s:	EXT_VNA_LV_25_3_7G_12G_10M_NC346D		<-- SG:port1, SA:port2, direct
+
+110s:	EXT_VNA_IS_25_3_7G_12G_10M_NC346D_port1		<-- SG:port2, SA:port1, direct
+110s:	EXT_VNA_LV_25_3_7G_12G_10M_NC346D_port1		<-- SG:port2, SA:port1, direct
+
+110s:	SNS_VNA_LV_25_3_0.3m_7G_12G_10M_ENR6_port1	<-- SG:port2, SA:port1, noATT, 9GHz6ENR
+110s:	SNS_VNA_LV_25_3_0.3m_7G_12G_10M_ENR15_port1	<-- SG:port2, SA:port1, noATT, 9GHz15ENR
+110s:	SNS_VNA_LV_25_3_0.3m_7G_12G_10M_ENR20_port1	<-- SG:port2, SA:port1, noATT, 9GHz20ENR
+
+110s:	EXT_VST_LV_25_3_7G_12G_10M_NC346D
+110s:	EXT_VST_LV_25_3_7G_12G_10M_NC346C
+
+Test Time
+s:	EXT_LV_-21_S7nc0nc1-S11no0_0dB_7G_12G_100M
+s:	EXT_LV_-21_S7nc0nc1-S11no0_6dB_7G_12G_100M
+
+110s:	SNS_IS_-28_0.3m_7G_12G_10M
+
+
+-------------------------------------------------------------------------------
