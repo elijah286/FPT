@@ -1,5 +1,5 @@
 # FPT Introduction
-The demo system is architected as a **modular, scalable RF measurement platform** designed to operate across both **Lite** and **Pro** hardware versions while supporting **manual SFP‑based workflows** and **fully automated TestStand sequences**. The architecture integrates NI’s measurement software ecosystem—**RFmx**, **InstrumentStudio**, and **TestStand**—with application libraries developed by **ADG SRD**, including the **PAEML** and **SPML** libraries, to deliver a unified and reusable measurement framework.
+The demo system is architected as a **modular, scalable RF measurement platform** while supporting **manual SFP‑based workflows** and **fully automated TestStand sequences**. The architecture integrates NI’s measurement software ecosystem—**RFmx**, **InstrumentStudio**, and **TestStand**—with application libraries, for example, **PAEML** and **SPML** libraries, to deliver a unified and reusable measurement framework.
 
 ## Measurement List
 Small Signal CW and Pulsed S-Parameters
