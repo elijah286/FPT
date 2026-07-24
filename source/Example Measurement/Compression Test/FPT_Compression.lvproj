@@ -264,8 +264,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="RFmxInstr Get NIRFSA Session.vi" Type="VI" URL="/&lt;vilib&gt;/RFmx/RFInstr/mx/RFmxInstr.llb/RFmxInstr Get NIRFSA Session.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
-				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 			</Item>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
@@ -312,6 +311,11 @@
 			<Item Name="NI gRPC Device Server.vi" Type="VI" URL="../../FPT Shared VIs/Power Sequencing/NI gRPC Device Server.vi"/>
 			<Item Name="NI gRPC Device Server - Action.ctl" Type="VI" URL="../../FPT Shared VIs/Power Sequencing/NI gRPC Device Server - Action.ctl"/>
 			<Item Name="Measurement Termination In Progress.vi" Type="VI" URL="../../FPT Shared VIs/Early Stop/Measurement Termination In Progress.vi"/>
+			<Item Name="Power Sequence CSV Validity Check.vi" Type="VI" URL="../../FPT Shared VIs/Power Sequencing/Power Sequence CSV Validity Check.vi"/>
+			<Item Name="Find Connected NI Devices.vi" Type="VI" URL="../../FPT Shared VIs/Power Sequencing/Find Connected NI Devices.vi"/>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FPT_Compression" Type="EXE">
@@ -371,7 +375,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EFE073F8-6353-4034-8DD1-EDFD72F16739}</Property>
-				<Property Name="Bld_version.build" Type="Int">105</Property>
+				<Property Name="Bld_version.build" Type="Int">108</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FPT_Compression UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/BuiltUI/FPT_Compression UI.lvlibp</Property>

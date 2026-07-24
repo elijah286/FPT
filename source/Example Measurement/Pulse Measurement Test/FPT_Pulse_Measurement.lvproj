@@ -142,6 +142,7 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
@@ -218,6 +219,7 @@
 			<Item Name="Deembedding RFSG.vi" Type="VI" URL="../../FPT Shared VIs/De-embedding/Deembedding RFSG.vi"/>
 			<Item Name="Disconnect All Switches.vi" Type="VI" URL="../../FPT Shared VIs/Power Sequencing/Disconnect All Switches.vi"/>
 			<Item Name="Event Messenger-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Event Messenger-bool.lvlib"/>
+			<Item Name="Find Connected NI Devices.vi" Type="VI" URL="../../FPT Shared VIs/Power Sequencing/Find Connected NI Devices.vi"/>
 			<Item Name="Get Power Sequence.vi" Type="VI" URL="../../FPT Shared VIs/Power Sequencing/Get Power Sequence.vi"/>
 			<Item Name="Get Specific Channel Resources.vi" Type="VI" URL="../../FPT Shared VIs/Power Sequencing/Get Specific Channel Resources.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
@@ -226,6 +228,8 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Measurement Plugin Error Handler.vi" Type="VI" URL="../../FPT Shared VIs/Measurement Plugin Error Handler.vi"/>
 			<Item Name="Measurement Termination In Progress.vi" Type="VI" URL="../../FPT Shared VIs/Early Stop/Measurement Termination In Progress.vi"/>
+			<Item Name="NI gRPC Device Server - Action.ctl" Type="VI" URL="../../FPT Shared VIs/Power Sequencing/NI gRPC Device Server - Action.ctl"/>
+			<Item Name="NI gRPC Device Server.vi" Type="VI" URL="../../FPT Shared VIs/Power Sequencing/NI gRPC Device Server.vi"/>
 			<Item Name="nidcpower_64.dll" Type="Document" URL="nidcpower_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -244,8 +248,12 @@
 			<Item Name="niswitch_64.dll" Type="Document" URL="niswitch_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Power Off Dut.vi" Type="VI" URL="../../FPT Shared VIs/Power Sequencing/Power Off Dut.vi"/>
 			<Item Name="Power On Dut.vi" Type="VI" URL="../../FPT Shared VIs/Power Sequencing/Power On Dut.vi"/>
+			<Item Name="Power Sequence CSV Validity Check.vi" Type="VI" URL="../../FPT Shared VIs/Power Sequencing/Power Sequence CSV Validity Check.vi"/>
 			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
 			<Item Name="RFmx Config.ctl" Type="VI" URL="../../FPT Shared VIs/De-embedding/RFmx Config.ctl"/>
 			<Item Name="RFsg Config.ctl" Type="VI" URL="../../FPT Shared VIs/De-embedding/RFsg Config.ctl"/>
@@ -310,7 +318,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{12A3355A-85B9-438C-A7DE-FFF2CC37BD85}</Property>
-				<Property Name="Bld_version.build" Type="Int">32</Property>
+				<Property Name="Bld_version.build" Type="Int">35</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FPT Pulse Measurement UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../FPT Pulse Measurement/BuiltUI/FPT Pulse Measurement UI.lvlibp</Property>
