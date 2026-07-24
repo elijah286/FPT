@@ -173,6 +173,7 @@
 				<Item Name="RFmxSpecAn NF Load DUT Output Loss from S2P File.vi" Type="VI" URL="/&lt;vilib&gt;/RFmx/SpecAn/mx/RFmxSpecAn.llb/RFmxSpecAn NF Load DUT Output Loss from S2P File.vi"/>
 				<Item Name="RFmxSpecAn NF Load Y Factor Noise Source Loss from S2P File.vi" Type="VI" URL="/&lt;vilib&gt;/RFmx/SpecAn/mx/RFmxSpecAn.llb/RFmxSpecAn NF Load Y Factor Noise Source Loss from S2P File.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 			</Item>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
@@ -212,6 +213,13 @@
 			<Item Name="Disconnect All Switches.vi" Type="VI" URL="../../FPT Shared VIs/Power Sequencing/Disconnect All Switches.vi"/>
 			<Item Name="Measurement Plugin Error Handler.vi" Type="VI" URL="../../FPT Shared VIs/Measurement Plugin Error Handler.vi"/>
 			<Item Name="Measurement Termination In Progress.vi" Type="VI" URL="../../FPT Shared VIs/Early Stop/Measurement Termination In Progress.vi"/>
+			<Item Name="NI gRPC Device Server - Action.ctl" Type="VI" URL="../../FPT Shared VIs/Power Sequencing/NI gRPC Device Server - Action.ctl"/>
+			<Item Name="NI gRPC Device Server.vi" Type="VI" URL="../../FPT Shared VIs/Power Sequencing/NI gRPC Device Server.vi"/>
+			<Item Name="Find Connected NI Devices.vi" Type="VI" URL="../../FPT Shared VIs/Power Sequencing/Find Connected NI Devices.vi"/>
+			<Item Name="Power Sequence CSV Validity Check.vi" Type="VI" URL="../../FPT Shared VIs/Power Sequencing/Power Sequence CSV Validity Check.vi"/>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FPT NoiseFigure" Type="EXE">
@@ -270,7 +278,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2D30FC81-D53F-4B52-BB3B-8DBBC2848E0D}</Property>
-				<Property Name="Bld_version.build" Type="Int">258</Property>
+				<Property Name="Bld_version.build" Type="Int">261</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FPT NoiseFigure UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../FPT NoiseFigure/BuiltUI/FPT NoiseFigure UI.lvlibp</Property>
