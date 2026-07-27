@@ -80,6 +80,21 @@ add a photo of NI MAX
 - ni PAEML 2023
 - Measurement Plug-in SDK 3.5.4.1
 
+## Start your first measurement
+### Prerequisite 
+1. Power Sequencing File in CSV format. Here are some examples, \source\Example Measurement\Measurement Configuration Files.
+2. De-embedding Files. All the path losses characteristic files.
+
+## Start your measurement
+1. Launch any of the RF measurement LV Project from <source\Example Measurement>, says Compression Test
+2. Launch FPT_Compression.lvproj > My Computer > FPT_Compression.lvclass > **Run Service.vi**
+3. Run VI
+4. Launch InstrumentStudio, select Manual Layout
+5. Select the desired RF Measurement Service, in this case, FPT Compression
+6. Select **Create large panel** from the pull-down menu, then click **OK**
+7. Verify and fill in the Power Sequencing File Path and all the configurations.
+8. Make sure power sequencing file is valid and it is recommended to start with a lower RF power. 
+9. Once verified, click RUN to start the measurement.
 
 ## Creating your own
 You will find a folder named "Framework". Use that as the starting point to create your project. 
