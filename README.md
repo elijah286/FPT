@@ -1,4 +1,12 @@
 # FPT Introduction
+
+<!-- labview-ci:dashboard -->
+## LabVIEW CI
+
+[![LabVIEW CI dashboard](https://img.shields.io/badge/LabVIEW%20CI-dashboard-2ea44f)](https://elijah286.github.io/FPT/)
+
+LabVIEW CI runs on every pull request. See the [**CI dashboard**](https://elijah286.github.io/FPT/) for build status, VI Analyzer results, VI diffs, and mass-compile reports.
+
 The demo system is architected as a **modular, scalable RF measurement platform** while supporting **manual SFP‑based workflows** and **fully automated TestStand sequences**. The architecture integrates NI’s measurement software ecosystem—**RFmx**, **InstrumentStudio**, and **TestStand**—with application libraries, for example, **PAEML** and **SPML** libraries, to deliver a unified and reusable measurement framework.
 
 ## Creating your own Measurement Plugin
