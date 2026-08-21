@@ -1,0 +1,35 @@
+{
+    "repo":  "elijah286/FPT",
+    "sha":  "f2ba4b518997c336e70ba73780faededc450525c",
+    "ref":  "refs/heads/main",
+    "platform":  "windows",
+    "arch":  "AMD64",
+    "labview_version":  "LabVIEW 2026",
+    "built_at":  "2026-08-21T14:43:08Z",
+    "specs":  [
+                  {
+                      "project":  "source\\Framework\\MeasurementPlugin Framework\\FPT Framework.lvproj",
+                      "name":  "FPT Framework",
+                      "type":  "EXE",
+                      "target":  "My Computer",
+                      "status":  "failed",
+                      "outputs":  [
+
+                                  ],
+                      "message":  "ExecuteBuildSpec exited 2",
+                      "duration":  75.4
+                  },
+                  {
+                      "project":  "source\\Framework\\MeasurementPlugin Framework\\FPT Framework.lvproj",
+                      "name":  "FPT Framework UI",
+                      "type":  "Packed Library",
+                      "target":  "My Computer",
+                      "status":  "built",
+                      "outputs":  [
+
+                                  ],
+                      "message":  "Built, but no output files were located (destination dir: \u0027C:\\workspace\\source\\Framework\\FPT Framework\\BuiltUI\u0027).",
+                      "duration":  6.9
+                  }
+              ]
+}

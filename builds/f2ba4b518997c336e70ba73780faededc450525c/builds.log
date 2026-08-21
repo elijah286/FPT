@@ -1,0 +1,322 @@
+=== ExecuteBuildSpec 'FPT Framework' [EXE] target 'My Computer' in source\Framework\MeasurementPlugin Framework\FPT Framework.lvproj ===
+LabVIEWCLI started logging in file:  C:\Users\ContainerAdministrator\AppData\Local\Temp\lvtemporary_625628.log
+Using LabVIEW: "C:\Program Files\National Instruments\LabVIEW 2026\LabVIEW.exe"
+LabVIEW launched successfully.
+Connection established with LabVIEW at port number 3363.
+
+LabVIEWCLI.exe : Operation output: 
+At C:\workspace\.github\labview\build-binaries.ps1:252 char:12
++     $out = & $CliExe @cliArgs 2>&1 | Out-String
++            ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Operation output: :String) [], Re 
+   moteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Error Code : 1
+Error Message : Cannot complete build because following VI loaded broken:
+
+C:\workspace\source\Framework\MeasurementPlugin Framework\FPT Framework\Run 
+Service.vi
+
+Open the VI in LabVIEW and fix the listed errors. If the VI loads as expected 
+but errors are still detected during the build, contact National Instruments 
+technical support for assistance.
+
+Broken VIs:
+- Compression_Simulation.vi:
+	LabVIEW Object 'measure call context in': Refers to a missing LabVIEW class
+
+- FPT Framework.lvclass:Get Plugin Paths.vi:
+	LabVIEW Object 'measurement plugin in': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'measurement plugin out': Refers to a missing LabVIEW class
+
+	Type Definition 'plugin paths': Type definition not found or contains errors
+
+	Type Definition 'Plugin Paths': Type definition not found or contains errors
+
+- FPT Framework.lvclass:Get Service Descriptor.vi:
+	LabVIEW Object 'measurement plugin in': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'measurement plugin out': Refers to a missing LabVIEW class
+
+	Type Definition 'service descriptor': Type definition not found or contains 
+errors
+
+	Type Definition 'measurement details': Type definition not found or contains 
+errors
+
+	Type Definition 'MeasurementAnnotation': Type definition not found or 
+contains errors
+
+	Type Definition 'measurement details': Type definition not found or contains 
+errors
+
+	Type Definition 'MeasurementAnnotation': Type definition not found or 
+contains errors
+
+	Type Definition 'service descriptor': Type definition not found or contains 
+errors
+
+	Type Definition 'measurement details': Type definition not found or contains 
+errors
+
+	Type Definition 'MeasurementAnnotation': Type definition not found or 
+contains errors
+
+	Type Definition 'measurement details': Type definition not found or contains 
+errors
+
+	Type Definition 'MeasurementAnnotation': Type definition not found or 
+contains errors
+
+	SubVI 'Create Basic Measurement Annotations.vi': SubVI is missing
+
+	Type Definition 'measurement details': Type definition not found or contains 
+errors
+
+- FPT Framework.lvclass:Get Type Specializations.vi:
+	Type Definition 'Type Specializations 2': Type definition not found or 
+contains errors
+
+	Type Definition 'type specialization': Type definition not found or contains 
+errors
+
+	Type Definition 'key': Type definition not found or contains errors
+
+	Type Definition 'type specialization': Type definition not found or contains 
+errors
+
+	Type Definition 'key': Type definition not found or contains errors
+
+	LabVIEW Object 'measurement plugin in': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'measurement plugin out': Refers to a missing LabVIEW class
+
+	Type Definition 'Type Specializations': Type definition not found or contains 
+errors
+
+	Type Definition 'type specialization': Type definition not found or contains 
+errors
+
+	Type Definition 'key': Type definition not found or contains errors
+
+	Type Definition 'type specialization': Type definition not found or contains 
+errors
+
+	Type Definition 'key': Type definition not found or contains errors
+
+- FPT Framework.lvclass:Get User Interface Information.vi:
+	LabVIEW Object 'measurement plugin in': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'measurement plugin out': Refers to a missing LabVIEW class
+
+	Type Definition 'user interface information': Type definition not found or 
+contains errors
+
+	Type Definition 'UI Information': Type definition not found or contains errors
+
+- FPT Framework.lvclass:Measure.vi:
+	LabVIEW Object 'measurement plugin in': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'measurement plugin out': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'measure call context out': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'measure call context in': Refers to a missing LabVIEW class
+
+	SubVI 'FPT Framework.lvclass:Measurement Logic.vi': SubVI is not executable
+
+- FPT Framework.lvclass:Measurement Logic.vi:
+	LabVIEW Object 'measure call context in': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'measure call context out': Refers to a missing LabVIEW class
+
+	SubVI 'FPT Framework.lvclass:Wait Until Cancelled or Complete.vi': SubVI is 
+not executable
+
+	SubVI 'FPT Framework.lvclass:Signal Measurement Complete.vi': SubVI is not 
+executable
+
+	SubVI 'Is Canceled.vi': SubVI is missing
+
+	SubVI 'Compression_Simulation.vi': SubVI is not executable
+
+	SubVI 'FPT Framework.lvclass:Configuration Parse.vi': SubVI is not executable
+
+	Shift Register: Shift register: Feedback Node: data type is undefined
+
+- FPT Framework.lvclass:Pack for gRPC.vi:
+	Type Definition 'any': Type definition not found or contains errors
+
+	LabVIEW Object 'measurement plugin in': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'measurement plugin out': Refers to a missing LabVIEW class
+
+	SubVI 'Get gRPC ID.vi': SubVI is missing
+
+	SubVI 'PackToAny.vim': SubVI is missing
+
+	Polymorphic terminal cannot accept this data type.
+
+	Polymorphic terminal cannot accept this data type.
+
+	Polymorphic terminal cannot accept this data type.
+
+	Polymorphic terminal cannot accept this data type.
+
+	SubVI 'PackToAny.vim': SubVI is missing
+
+	Polymorphic terminal cannot accept this data type.
+
+	Polymorphic terminal cannot accept this data type.
+
+	Polymorphic terminal cannot accept this data type.
+
+	Polymorphic terminal cannot accept this data type.
+
+- FPT Framework.lvclass:Pack for 
+gRPC.vi:Instance:2eca732d-dbaa-43bf-a7dd-ede2da65bc1b.vi:
+	Type Definition 'gRPCid in': Type definition not found or contains errors
+
+	Type Definition 'Any': Type definition not found or contains errors
+
+	SubVI 'Translate Protobuf Error.vi': SubVI is missing
+
+	Type Definition 'Any': Type definition not found or contains errors
+
+	SubVI 'Get Server DLL Path.vi': SubVI is missing
+
+- FPT Framework.lvclass:Pack for 
+gRPC.vi:Instance:a6012965-5700-4384-8228-972e71b6560c.vi:
+	Type Definition 'gRPCid in': Type definition not found or contains errors
+
+	Type Definition 'Any': Type definition not found or contains errors
+
+	SubVI 'Translate Protobuf Error.vi': SubVI is missing
+
+	Type Definition 'Any': Type definition not found or contains errors
+
+	SubVI 'Get Server DLL Path.vi': SubVI is missing
+
+- FPT Framework.lvclass:Post-Build Action.vi:
+	SubVI 'Post-Build Action.vi': SubVI is missing
+
+	LabVIEW Object 'MeasurementLink Measurement 
+Template.lvlib:MeasurementPlugin.lvclass': Refers to a missing LabVIEW class
+
+	Wire: Class conflict
+
+- FPT Framework.lvclass:Run Service.vi:
+	SubVI 'Run Service.vi': SubVI is missing
+
+	LabVIEW Object 'MeasurementLink Measurement Template.lvlib:Measurement 
+Customizations.lvclass': Refers to a missing LabVIEW class
+
+	Wire: Class conflict
+
+- FPT Framework.lvclass:Unpack for gRPC.vi:
+	Type Definition 'any': Type definition not found or contains errors
+
+	LabVIEW Object 'measurement plugin in': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'measurement plugin out': Refers to a missing LabVIEW class
+
+	SubVI 'Get gRPC ID.vi': SubVI is missing
+
+	SubVI 'UnpackFromAny.vim': SubVI is missing
+
+	Polymorphic terminal cannot accept this data type.
+
+	Polymorphic terminal cannot accept this data type.
+
+	Polymorphic terminal cannot accept this data type.
+
+	Polymorphic terminal cannot accept this data type.
+
+	Polymorphic terminal cannot accept this data type.
+
+	SubVI 'UnpackFromAny.vim': SubVI is missing
+
+	Polymorphic terminal cannot accept this data type.
+
+	Polymorphic terminal cannot accept this data type.
+
+	Polymorphic terminal cannot accept this data type.
+
+	Polymorphic terminal cannot accept this data type.
+
+	Polymorphic terminal cannot accept this data type.
+
+- FPT Framework.lvclass:Unpack for 
+gRPC.vi:Instance:3ecd018e-d556-4cbc-bc60-c4ba57204520.vi:
+	Type Definition 'gRPCid in': Type definition not found or contains errors
+
+	Type Definition 'Any': Type definition not found or contains errors
+
+	SubVI 'Translate Protobuf Error.vi': SubVI is missing
+
+	SubVI 'Get Server DLL Path.vi': SubVI is missing
+
+- FPT Framework.lvclass:Unpack for 
+gRPC.vi:Instance:a521b266-ce99-437c-923d-067dcf1e07fd.vi:
+	Type Definition 'gRPCid in': Type definition not found or contains errors
+
+	Type Definition 'Any': Type definition not found or contains errors
+
+	SubVI 'Translate Protobuf Error.vi': SubVI is missing
+
+	SubVI 'Get Server DLL Path.vi': SubVI is missing
+
+- FPT Framework.lvclass:Wait Until Cancelled or Complete.vi:
+	LabVIEW Object 'measure call context out': Refers to a missing LabVIEW class
+
+	LabVIEW Object 'measure call context in': Refers to a missing LabVIEW class
+
+	SubVI 'Is Canceled.vi': SubVI is missing
+
+	Shift Register: Shift register: Feedback Node: data type is undefined
+
+
+
+
+
+
+
+
+
+
+
+Click the link below to visit the Application Builder support page. Use the 
+following information as a reference:
+
+
+
+Error 1003 occurred at AB_Get_Detailed_BrokenVI_Message.vi -> 
+AB_Targetfile.lvclass:Open_Top_Level_VIs.vi
+
+
+Possible reason(s):
+
+
+LabVIEW: (Hex 0x3EB) The VI is not executable. This error may occur because 
+the VI is either broken or contains a subVI that LabVIEW cannot locate. Select 
+File>>Open to open the VI and verify that you can run it.
+An error occurred while running the ExecuteBuildSpec operation.
+
+ExecuteBuildSpec operation failed.
+
+
+=== ExecuteBuildSpec 'FPT Framework UI' [Packed Library] target 'My Computer' in source\Framework\MeasurementPlugin Framework\FPT Framework.lvproj ===
+LabVIEWCLI started logging in file:  C:\Users\ContainerAdministrator\AppData\Local\Temp\lvtemporary_745276.log
+Using LabVIEW: "C:\Program Files\National Instruments\LabVIEW 2026\LabVIEW.exe"
+Connection established with LabVIEW at port number 3363.
+
+Operation output: 
+Generated files are:
+C:\workspace\source\Framework\MeasurementPlugin Framework\FPT Framework\BuiltUI\FPT Framework UI.lvlibp
+
+
+ExecuteBuildSpec operation succeeded.
+
+
